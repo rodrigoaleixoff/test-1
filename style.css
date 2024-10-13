@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, a{
+    cursor: pointer;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    background-color: #57290B;
+    height: 100px;
+    align-items: center;
+}
+
+.header-button{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.8px;
+    border-bottom: 2px solid;
+    border-color: #B2784A;
+}
+
+.header img{
+    width: 138px;
+}
+
+.header-telefone{
+    display: flex;
+}
+
+.header-telefone img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.header-telefone p{
+    color: aliceblue;
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.8px;
+}
+
+#header-sobre-nos{
+    margin-left: 6.2vw;
+}
+
+#header-cafeteria{
+    margin-left: 17vw;
+}
+
+#header-icon{
+    margin-left: 14.4vw;
+}
+
+#header-contato{
+    margin-left: 14.3vw;
+}
+
+.header-telefone{
+    margin-left: 16.8vw;
+}
+
+/**header-mobile*/
+
+.header-mobile{
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-icon-mobile{
+    width: 30px;
+    margin-left: 45px;
+}
+
+#menu-mobile{
+    display: flex;
+    width: 26px;
+    float: right;
+    margin-right: 45px;
+}
+
+.header-mobile h1{
+    font-family: Cormorant Garamond;
+    font-size: 25px;
+    color: #F0F0F0;
+    font-weight: 400;
+    line-height: 21.8px;
+    text-align: left;
+}
+
+/*intro*/
+
+.intro{
+    background-image: url("./images/intro/BackGround.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 559px;
+}
+
+.intro h1{
+    font-family: Open Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 76.26px;
+    text-align: left;
+    color: #F0F0F0;
+}
+
+#intro-text{
+    max-width: 589px;
+}
+
+#intro-paragraph{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color:#F0F0F0;
+    max-width: 510px;
+    padding-top: 16px;
+}
+
+.intro-inside{
+    padding-top: 64px;
+    padding-left: 120px;
+}
+
+#intro-button{
+    background-color: #8F542E;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F0F0F0;
+    margin-top: 41px;
+    transition: 300ms;
+}
+
+#intro-button:hover{
+    transition: 300ms;
+    background-color: #CA8E67;
+}
+
+/*sobre-nos*/
+
+.sobre-nos{
+    height: 750px;
+}
+
+.sobre-nos-inside{
+    padding-top: 64px;
+    padding-left: 120px;
+}
+
+.sobre-nos-title h1{
+    display: inline;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1F0C00;
+}
+
+.quadrado-rosa{
+    margin-left: -15px;
+    margin-top: -30px;
+    width: 250px;
+    height: 28px;
+    background-color: #FBC9A8;
+}
+
+.sobre-nos p{
+    max-width: 589px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1F0C00;
+}
+
+#sobre-nos-p1{
+    padding-top: 39px;
+    padding-bottom: 16px;
+}
+
+#sobre-nos-p2{
+    padding-bottom: 48px;
+}
+
+.sobre-nos-inside button{
+    background-color: #8F542E;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F0F0F0;
+    margin-top: 41px;
+    transition: 300ms;
+}
+
+.sobre-nos-inside button:hover{
+    transition: 300ms;
+    background-color: #CA8E67;
+}
+
+.sobre-nos-inside-left{
+    display: inline-block;
+    max-width: 800px;
+}
+
+.sobre-nos-inside-right{
+    display: inline;
+}
+
+.sobre-nos-inside-right img{
+    margin-left: 520px;
+    display: inline;
+    width: 352px;
+    height: 340.41px;
+    border-radius: 8px 0px 0px 0px;
+}
+
+/*cafeteria*/
+
+.cafeteria{
+    display: flex;
+    background-color: #80451F;
+    height: 745px;
+}
+
+.cafe-onda{
+    background-image: url("./images/cafeteria/Cafe\ onda.svg");
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-top: -126px;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    width: auto;
+    height: 75px;
+    background-color: #57290B;
+    justify-content: space-between;
+}
+
+.footer h3{
+    display: inline-flex;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFDAB8;
+    align-items: center;
+}
+
+#footer-left{
+    padding-left: 10%;
+}
+
+#footer-right{
+    float: right;
+    padding-right: 10%;
+}
+
+/*query*/
+
+
+@media (max-width: 1700px){
+    .sobre-nos-inside-right{
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) { 
+    .header-telefone{
+        display: none;
+    }
+}
+
+@media (max-width: 850px){
+
+    .header{
+        height: 80px;
+        justify-content: space-between;
+    }
+
+    .header-button, #header-icon{
+        display: none;
+    }
+
+    .header-mobile{
+        display: flex;
+    }
+
+    /*intro*/
+
+    .intro{
+        height: 380px;
+    }
+
+    .intro-inside{
+        padding-left: 24px;
+        padding-top: 32px;
+    }
+
+    #intro-text{
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    #intro-paragraph{
+        display: none;
+    }
+
+    /*sobre-nos*/
+
+    .sobre-nos{
+        height: 515px;
+    }
+    
+    .sobre-nos-inside{
+        padding-left: 32px;
+        padding-top: 32px;
+    }
+
+    .sobre-nos p{
+        padding-right: 25px;
+    }
+    
+    #sobre-nos-p1{
+        padding-top: 39px;
+        padding-bottom: 16px;
+    }
+    
+    #sobre-nos-p2{
+        padding-bottom: 20px;
+    }
+
+
+    /*footer*/
+
+    .footer{
+        display: block;
+        justify-content: none
+    }
+    
+    .footer h3{
+        display: block;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #FFDAB8;
+        align-items: center;
+    }
+    
+    #footer-left{
+        padding-top: 12px;
+        padding-bottom: 4px;
+        padding-left: 30px;
+    }
+    
+    #footer-right{
+        float: none;
+        padding-left: 30px;
+    }
+
+}
